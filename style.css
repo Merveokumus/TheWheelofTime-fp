@@ -1,0 +1,108 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(castle.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    
+}
+.navbar .logo{
+ 
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 0 px;
+    user-select: none;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(51,41,27,255);
+
+}
+.container .navbar{
+   
+    width: 100%;
+    height: 100px;
+    background-color:rgba(155, 132, 117,0.5);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 20 px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color:#4e4430 ;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-size: 25px;
+    font-family: 'cinzel';
+    transition: .5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: rgb(114, 98, 87);
+    border-radius: 5px;
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-family:'cinzel';
+    user-select: none;
+    
+}
+.center h2{
+    color:rgba(245,233,207,255);
+    font-size: 30px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'cinzel';
+    background-color:rgba(125, 2, 15, 1);
+    border: solid 1px ;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color:rgb(114, 98, 87)
+    }
+
+    .buttons button{
+        transform:scale(0.98) ;
+        transition: all 0.3s;
+    }
+    
+
+    .buttons button:hover{
+    background-color:rgba(245,233,207,255);
+    transform: scale(1.03);
+    }
